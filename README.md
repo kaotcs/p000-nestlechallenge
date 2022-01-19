@@ -2,8 +2,8 @@
 
 Which city Nestlé should expand "Vem de Bolo" platform through Moça program?
 
-<img src="https://github.com/kaotcs/p005-allinoneplace/blob/main/img/785054-ecommerce-istock-020119.jpg" alt="All in one place"
-	title="AIOP"  width="100%" height="500" />
+<img src="https://github.com/kaotcs/p000-nestlechallenge/blob/main/img/cover.png" alt="Cover"
+	title="cover"  width="100%" height="500" />
 
 ## 01 BUSINESS PROBLEM
 Assist the development of artisanal market with produces independently cakes and sweet
@@ -39,13 +39,18 @@ The strategy adopted was the following:
 
 <b>Step 10.</b> Exploratory Data Analysis for "Vem de Bolo" candidate: It was made a visual map to visualize the main insights
 
-## 04 TOP 3 DATA INSIGHTS
+## 04 TOP 4 DATA INSIGHTS FROM "VEM DE BOLO" CANDIDATE CLUSTER
 
-* 82% of database is represeted by new customers or just made one order since the registration.
+<img src="https://github.com/kaotcs/p000-nestlechallenge/blob/main/img/cluster01.png" alt="cluster01"
+	title="Nestle"/>
 
-* Most of customers are from UK and Europe (up to 90%), but there are other from other countries.
+* 100% of greatest cities in Brazil are included in this cluster and 98% have their population still expanding.
 
-* 117 customers indicated in the insiders cluster represent 7% of annual revenue.
+* 31% of total have average income above R$ 4.400 (middle class).
+
+* 90% of the municipalities have at least 5.000 workers around of area where the analyzes were made. (great capacity of earning)
+
+* 100% of the municipalities concentrate small businesses (entrepreneur) around of area where the analyzes were made.
 
 ## 05 MACHINE LEARNING MODEL APPLIED
 
@@ -59,14 +64,12 @@ The following machine learning algorithms were used to predict sales:
 
 The silhouette score for each model is indicated bellow:
 
-<img src="https://github.com/kaotcs/p005-allinoneplace/blob/main/img/silhouette.jpg" alt="ML peformance"
-	title="AIOP"/>
+<img src="https://github.com/kaotcs/p000-nestlechallenge/blob/main/img/score_silhouette.jpg" alt="ML peformance"
+	title="Nestle"/>
 
-## 07 DEPLOYMENT
-It was used AWS plataform (S3, RDS and EC2) to deploy the result of this clustering. The insiders clusters data can be visualized at Metabase platform. (Link will be available soon)
+## 07 CONCLUSION
+This work was developed to Nestlé Data Challenge where it was possible to point which cities them should look for the expansion of "Vem de Bolo" platform. It was possible to see 381 cities where they could make further investigation, but we can indicate a TOP 10 cities where they can start:
 
-## 08 CONCLUSION
-This insiders clusters represet a great path to marketing team and strategical aprouch to BI team improvement of revenue and keep the sales higher. The other customers which is not included should be analyzed and it is importante to create some trigger to pull them to insiders clusters.
 
 ## 08 LESSONS LEARNED / NEXT STEPS AND IMPROVEMENTS
-Clustering problems is an unsupervised problem which does not have the right answer. It was made 9 cicles where it was made a deeper look in each feature. At this point, it was selected the best result that should be improved exploring new features or creating new ones from existing data.
+Since it was given only one week to analyzed the data, it was not possible to
