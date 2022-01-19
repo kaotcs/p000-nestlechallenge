@@ -70,6 +70,11 @@ The silhouette score for each model is indicated bellow:
 ## 07 CONCLUSION
 This work was developed to Nestlé Data Challenge where it was possible to point which cities them should look for the expansion of "Vem de Bolo" platform. It was possible to see 381 cities where they could make further investigation, but we can indicate a TOP 10 cities where they can start:
 
+<img src="https://github.com/kaotcs/p000-nestlechallenge/blob/main/img/top10.png" alt="top10"
+	title="Nestle"/>
+Complete ranking: https://docs.google.com/spreadsheets/d/1bq9jd3d8fwLpyxI6qVphuSv8LDtpNLsH/edit#gid=450600250
+
+This project was presented to Nestlé in December 10th, 2021 and won the 4th place in this Data Challenge.
 
 ## 08 LESSONS LEARNED / NEXT STEPS AND IMPROVEMENTS
-Since it was given only one week to analyzed the data, it was not possible to
+Since it was given only one week to analyzed the data, it was not possible to develop others database provided by "Vem de Bolo". In next cicles, it should be made a deeper investigation to acomplish all IOT checklist indicated at the beginning of the project.
